@@ -1,0 +1,23 @@
+.gallery {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 1rem;
+  padding: 0 15px;
+  padding-top: 60px;
+  pointer-events: none;
+
+  &__img {
+    cursor: default;
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+  }
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  background-color: plum;
+}

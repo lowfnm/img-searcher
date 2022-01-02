@@ -1,0 +1,25 @@
+.search__form {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(to right, rgb(75, 75, 165), pink);
+  :active {
+    outline: 0;
+    outline-offset: 0;
+  }
+  :hover {
+    outline: 0;
+    outline-offset: 0;
+  }
+  :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+}
+
+.search__input {
+  margin-right: 2px;
+  border: 4px solid #4d60b6;
+}
