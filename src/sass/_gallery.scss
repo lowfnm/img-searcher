@@ -15,6 +15,12 @@
   }
 }
 
+.photo__card {
+  &:last-child {
+    margin-bottom: 40px;
+  }
+}
+
 .info {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
